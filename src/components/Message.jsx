@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class Message extends Component {
   render() {
-    console.log(this)
     return(
       <div className="notification">
   <div className="notification-content">

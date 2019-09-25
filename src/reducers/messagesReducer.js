@@ -1,8 +1,10 @@
+
+import { SET_MESSAGES }  from "../actions"
+
 const messagesReducer = (state = null, action) => {
   switch (action.type) {
-    // case label_1:
-    //   // statements_1
-    //   break;
+    case SET_MESSAGES:
+      return action.payload;
     default:
       return state;
   }
