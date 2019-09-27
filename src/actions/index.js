@@ -8,4 +8,5 @@ export function setMessages() {
     type: SET_MESSAGES, 
     payload: promise
   };
+
 }

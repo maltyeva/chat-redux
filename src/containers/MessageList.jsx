@@ -25,12 +25,13 @@ class MessageList extends Component {
   state = {
   setMessages: this.props.setMessages()
   }
+
 	render() {
 
-    console.log(this)
+    // console.log(33, this.state)
 
 		return(
-      this.props.messages.map((message) => <Message key={message.content} message={message}/>)
+      this.props.messages && this.props.messages.map((message) => <Message key={message.content} message={message}/>)
 			)
 	}
 }
